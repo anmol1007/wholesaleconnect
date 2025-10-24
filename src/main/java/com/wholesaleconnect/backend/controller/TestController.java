@@ -8,7 +8,7 @@ public class TestController {
 
     @GetMapping
     public String test() {
-        return "WholesaleConnect Backend is Working! 🚀";
+        return "WholesaleConnect Backend is Working 🚀";
     }
 
     @GetMapping("/hello/{name}")
