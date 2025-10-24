@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/test")
 public class TestController {
 
+    //test controllers
     @GetMapping
     public String test() {
         return "WholesaleConnect Backend is Working 🚀";
